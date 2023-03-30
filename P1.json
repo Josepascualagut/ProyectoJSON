@@ -10,7 +10,7 @@
         {
           "id": "j1",
           "equipo": "e1",
-          "imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.realmadrid.com%2Fsobre-el-real-madrid%2Fel-club%2Fhistoria%2Fjugadores-de-leyenda-futbol%2Fcristiano-ronaldo-dos-santos-aveiro&psig=AOvVaw2_T1_L4wizCIISA-QKearM&ust=1680276884581000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKjiuKj9g_4CFQAAAAAdAAAAABAE",
+          "imagen": "https://www.realmadrid.com/img/vertical_380px/cristiano_550x650_20180917025046.jpg",
           "nombreJugador": "Cristiano Ronaldo",
           "edad": "36",
           "posicion": "Delantero",
@@ -19,7 +19,7 @@
         {
           "id": "j2",
           "equipo" : "e1",
-          "imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.realmadrid.com%2Fsobre-el-real-madrid%2Fel-club%2Fhistoria%2Fjugadores-de-leyenda-futbol%2Fsergio-ramos-garcia&psig=AOvVaw3LR3AASwUzevq7o2MMHOMt&ust=1680276919770000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNiok7n9g_4CFQAAAAAdAAAAABAE",
+          "imagen": "https://www.realmadrid.com/img/vertical_380px/ramos_ficha_550x650_20210630115027.jpg",
           "nombreJugador": "Sergio  Ramos",
           "edad": "35",
           "posicion": "Defensa",
@@ -28,7 +28,7 @@
         {
           "id": "j3",
           "equipo": "e1",
-          "imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.realmadrid.com%2Ffutbol%2Fplantilla%2Ftoni-kroos&psig=AOvVaw08fypdNQG3JPQEUXbuZsEv&ust=1680276939804000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIjJ5cL9g_4CFQAAAAAdAAAAABAE",
+          "imagen": "https://mitvergnuegen.com/wp-content/uploads/2020/07/toni_kroos-680x561.jpg",
           "nombreJugador": "Toni Kroos",
           "edad": "31",
           "posicion": "Centrocampista",
@@ -37,7 +37,7 @@
         {
           "id": "j4",
           "equipo": "e1",
-          "imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.realmadrid.com%2Fen%2Ffootball%2Fsquad%2Fthibaut-courtois&psig=AOvVaw29wl5KHazHzwOoJiH833_v&ust=1680276973126000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCK19L9g_4CFQAAAAAdAAAAABAJ",
+          "imagen": "https://okdiario.com/diariomadridista/img/2023/03/29/courtois-2-655x368.jpg",
           "nombreJugador": "Thibaut Courtois",
           "edad": "29",
           "posicion": "Portero",
@@ -46,7 +46,7 @@
         {
           "id": "j5",
           "equipo": "e1",
-          "imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.realmadrid.com%2Fde%2Ffussball%2Fteam%2Fkarim-benzema&psig=AOvVaw28r0d0JUpuzxXYz-Zc6uep&ust=1680276995902000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOi0ut39g_4CFQAAAAAdAAAAABAQ",
+          "imagen": "https://phantom-marca.unidadeditorial.es/81831d37bf7ea76067853cb29b080e6f/resize/660/f/webp/assets/multimedia/imagenes/2022/10/18/16660799677109.jpg",
           "nombreJugador" : "Karim Benzema",
           "edad": "33",
           "posicion": "Delantero",
