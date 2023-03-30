@@ -5,11 +5,19 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
     </head>
     <body>
+        <style>
+            #app {
+                color: green;
+            }
+        </style>
         <h1>Real Madrid</h1>
         
         <table>
             <thead>
                 <tr>
+                    <th>
+                        imagen
+                    </th>
                     <th>
                         nombreJugador
                     </th>
@@ -36,24 +44,27 @@
         </table>
 
 
-        <script id="Proyecto_template"  type="text/x-jsrender">
+        <script id="jugador_template"  type="text/x-jsrender">
             {{for equipos[0].jugadores}}
             <tr>
-                <th>
+                <td>
+                    <img src="{{:imagen}}" alt="" width="200" height="400">
+                </td>
+                <td>
                     {{:nombreJugador}}
-                </th>
-                <th>
+                </td>
+                <td>
                     {{:edad}}
-                </th>
-                <th>
+                </td>
+                <td>
                     {{:posicion}}
-                </th>
-                <th>
+                </td>
+                <td>
                     {{:numero}}
-                </th>
-                <th>
+                </td>
+                <td>
                     {{:id}}
-                </th>
+                </td>
             </tr>
             {{/for}}
         </script>
@@ -62,7 +73,7 @@
         <script>
             $.getJSON("https://raw.githubusercontent.com/CarlosAguilella/ProyectoJSON/master/P1.json", (data) => {
 
-                   $("#app").html($.templates("#Proyecto_template").render(data));
+                   $("#app").html($.templates("#jugador_template").render(data));
                 });
                 
         </script>
