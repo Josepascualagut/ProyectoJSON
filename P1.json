@@ -1,47 +1,47 @@
 {
   "equipos": [
     {
-      "@id": "e1" ,
+      "id": "e1" ,
       "nombreEquipo" : "Real Madrid",
       "ciudad": "Madrid",
       "estadio": "Santiago Bernabeu",
       "fundacion": "1902",
       "jugadores": [
         {
-          "@id": "j1",
-          "@equipo": "e1",
+          "id": "j1",
+          "equipo": "e1",
           "nombreJugador": "Cristiano Ronaldo",
           "edad": "36",
           "posicion": "Delantero",
           "numero": "7"
         },              
         {
-          "@id": "j2",
-          "@equipo" : "e1",
+          "id": "j2",
+          "equipo" : "e1",
           "nombreJugador": "Sergio  Ramos",
           "edad": "35",
           "posicion": "Defensa",
           "numero": "4"
         },              
         {
-          "@id": "j3",
-          "@equipo": "e1",
+          "id": "j3",
+          "equipo": "e1",
           "nombreJugador": "Toni Kroos",
           "edad": "31",
           "posicion": "Centrocampista",
           "numero": "8"
         },              
         {
-          "@id": "j4",
-          "@equipo": "e1",
+          "id": "j4",
+          "equipo": "e1",
           "nombreJugador": "Thibaut Courtois",
           "edad": "29",
           "posicion": "Portero",
           "numero": "1"
         },              
         {
-          "@id": "j5",
-          "@equipo": "e1",
+          "id": "j5",
+          "equipo": "e1",
           "nombreJugador" : "Karim Benzema",
           "edad": "33",
           "posicion": "Delantero",

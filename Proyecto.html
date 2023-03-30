@@ -23,13 +23,13 @@
                         numero
                     </th>
                     <th>
-                        @id
+                        id
                     </th>
                 </tr>
             </thead>
         
             <tbody>
-                <thead id="#app">
+                <thead id="app">
                     
                 </thead>
             </tbody>
@@ -52,7 +52,7 @@
                     {{:numero}}
                 </th>
                 <th>
-                    {{:@id}}
+                    {{:id}}
                 </th>
             </tr>
             {{/for}}
@@ -60,14 +60,11 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/1.0.12/jsrender.min.js"></script>
         <script>
-            $.getJSON("https://raw.githubusercontent.com/CarlosAguilella/ProyectoJSON/master/P1.json",(data) => {
+            $.getJSON("https://raw.githubusercontent.com/CarlosAguilella/ProyectoJSON/master/P1.json", (data) => {
 
                    $("#app").html($.templates("#Proyecto_template").render(data));
                 });
                 
-
-                equipos[0].ciudad
-
         </script>
 
     </body>
