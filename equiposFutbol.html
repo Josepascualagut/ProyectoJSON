@@ -1,0 +1,57 @@
+<!DOCTYPE equipos [
+    <!ELEMENT equipos (equipo+)>
+    <!ELEMENT equipo (nombreEquipo, ciudad, estadio, fundacion, jugadores)>
+    <!ELEMENT nombreEquipo (#PCDATA)>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT estadio (#PCDATA)>    
+    <!ELEMENT fundacion (#PCDATA)>
+    <!ELEMENT jugadores (jugador+)>
+    <!ELEMENT jugador (nombreJugador, edad, posicion, numero, imagen?)>
+    <!ELEMENT nombreJugador (#PCDATA)>
+    <!ELEMENT edad (#PCDATA)>
+    <!ELEMENT posicion (#PCDATA)>
+    <!ELEMENT numero (#PCDATA)>
+    <!ATTLIST equipo id ID #REQUIRED>
+    <!ATTLIST jugador id ID #REQUIRED>
+    <!ATTLIST jugador equipo IDREF #REQUIRED>
+]>
+<equipos>
+    <equipo id="e1">
+        <nombreEquipo>Real Madrid</nombreEquipo>
+        <ciudad>Madrid</ciudad>
+        <estadio>Santiago Bernabeu</estadio>
+        <fundacion>1902</fundacion>
+        <jugadores>
+            <jugador id="j1" equipo="e1">
+                <nombreJugador>Cristiano Ronaldo</nombreJugador>
+                <edad>36</edad>
+                <posicion>Delantero</posicion>
+                <numero>7</numero>
+            </jugador>
+            <jugador id="j2" equipo="e1">
+                <nombreJugador>Sergio Ramos</nombreJugador>
+                <edad>35</edad>
+                <posicion>Defensa</posicion>
+                <numero>4</numero>
+            </jugador>
+            <jugador id="j3" equipo="e1">
+                <nombreJugador>Toni Kroos</nombreJugador>
+                <edad>31</edad>
+                <posicion>Centrocampista</posicion>
+                <numero>8</numero>
+            </jugador>
+            <jugador id="j4" equipo="e1">
+                <nombreJugador>Thibaut Courtois</nombreJugador>
+                <edad>29</edad>
+                <posicion>Portero</posicion>
+                <numero>1</numero>
+            </jugador>
+            <jugador id="j5" equipo="e1">
+                <nombreJugador>Karim Benzema</nombreJugador>
+                <edad>33</edad>
+                <posicion>Delantero</posicion>
+                <numero>1</numero>
+            </jugador>
+        </jugadores>
+    </equipo>
+</equipos>
