@@ -1,0 +1,41 @@
+<!DOCTYPE escueladesuperheroes [
+  <!ELEMENT escueladesuperheroes (superheroe*)>
+  <!ELEMENT superheroe (imagen, nombreSuperheroe, edad, poderes, id)>
+  <!ELEMENT imagen (#PCDATA)>
+  <!ELEMENT nombreSuperheroe (#PCDATA)>
+  <!ELEMENT edad (#PCDATA)>
+  <!ELEMENT poderes (#PCDATA)>
+  <!ELEMENT id (#PCDATA)>
+]>
+
+<escueladesuperheroes>
+  <superheroe>
+    <imagen>src=https://phantom-elmundo.unidadeditorial.es/4ce064570c24e373c803ee607f8f3cec/crop/32x0/686x436/resize/473/f/webp/assets/multimedia/imagenes/2022/12/15/16710955260924.png</imagen>
+    <nombreSuperheroe>Superman</nombreSuperheroe>
+    <edad>30</edad>
+    <poderes>Vuelo, fuerza sobrehumana, vision de calor</poderes>
+    <id>S1</id>
+  </superheroe>
+  <superheroe>
+    <imagen>src=https://i.pinimg.com/originals/9c/78/e5/9c78e546f951c521c1ad86472eb8aeae.jpg</imagen>
+    <nombreSuperheroe>Spider-Man</nombreSuperheroe>
+    <edad>22</edad>
+    <poderes>Agilidad, fuerza proporcional de aranya, sentido aracnido</poderes>
+    <id>S2</id>
+  </superheroe>
+  <superheroe>
+    <imagen>src=https://static.wikia.nocookie.net/dccu/images/6/6f/JL_Wonder_Woman.jpg/revision/latest?cb=20160914003449</imagen>
+    <nombreSuperheroe>Wonder Woman</nombreSuperheroe>
+    <edad>500</edad>
+    <poderes>Fuerza sobrehumana, velocidad, inmortalidad</poderes>
+    <id>S3</id>
+  </superheroe>
+  <superheroe>
+    <imagen>src=https://imagenes.elpais.com/resizer/slYGEeh9LzfBUz_UXu_8nVhPr5U=/1200x0/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/5VQ345JWCOOBMP5SWYZEFU4BBM.jpg</imagen>
+    <nombreSuperheroe>Hulk</nombreSuperheroe>
+    <edad>40</edad>
+    <poderes>Super fuerza, regeneracion, resistencia</poderes>
+    <id>S4</id>
+  </superheroe>
+</escueladesuperheroes>
+
