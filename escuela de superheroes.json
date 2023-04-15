@@ -1,0 +1,35 @@
+{
+    "escueladesuperheroes": {
+      "superheroe": [
+        {
+          "imagen": "src=https://phantom-elmundo.unidadeditorial.es/4ce064570c24e373c803ee607f8f3cec/crop/32x0/686x436/resize/473/f/webp/assets/multimedia/imagenes/2022/12/15/16710955260924.png",
+          "nombreSuperheroe": "Superman",
+          "edad": "30",
+          "poderes": "Vuelo, fuerza sobrehumana, vision de calor",
+          "id": "S1"
+        },
+        {
+          "imagen": "src=https://i.pinimg.com/originals/9c/78/e5/9c78e546f951c521c1ad86472eb8aeae.jpg",
+          "nombreSuperheroe": "Spider-Man",
+          "edad": "22",
+          "poderes": "Agilidad, fuerza proporcional de aranya, sentido aracnido",
+          "id": "S2"
+        },
+        {
+          "imagen": "src=https://static.wikia.nocookie.net/dccu/images/6/6f/JL_Wonder_Woman.jpg/revision/latest?cb=20160914003449",
+          "nombreSuperheroe": "Wonder Woman",
+          "edad": "500",
+          "poderes": "Fuerza sobrehumana, velocidad, inmortalidad",
+          "id": "S3"
+        },
+        {
+          "imagen": "src=https://imagenes.elpais.com/resizer/slYGEeh9LzfBUz_UXu_8nVhPr5U=/1200x0/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/5VQ345JWCOOBMP5SWYZEFU4BBM.jpg",
+          "nombreSuperheroe": "Hulk",
+          "edad": "40",
+          "poderes": "Super fuerza, regeneracion, resistencia",
+          "id": "S4"
+        }
+      ]
+    }
+  }
+  

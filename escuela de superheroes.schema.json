@@ -1,0 +1,48 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "escueladesuperheroes": {
+        "type": "object",
+        "properties": {
+          "superheroe": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "imagen": {
+                  "type": "string"
+                },
+                "nombreSuperheroe": {
+                  "type": "string"
+                },
+                "edad": {
+                  "type": "string"
+                },
+                "poderes": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "imagen",
+                "nombreSuperheroe",
+                "edad",
+                "poderes",
+                "id"
+              ]
+            }
+          }
+        },
+        "required": [
+          "superheroe"
+        ]
+      }
+    },
+    "required": [
+      "escueladesuperheroes"
+    ]
+  }
+  
